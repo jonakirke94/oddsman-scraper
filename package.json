@@ -1,0 +1,17 @@
+{
+  "name": "oddsman-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "node src/dev/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.3.0",
+    "nodemailer": "^6.7.2",
+    "puppeteer": "^13.1.1"
+  }
+}
